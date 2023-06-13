@@ -1,4 +1,13 @@
-﻿<!DOCTYPE html>
+﻿
+@{
+    var token = Context.Session.GetString("token");
+    if(token == null)
+    {
+        Context.Response.Redirect("/loginEmpleado");
+    }
+}
+
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="utf-8" />
@@ -20,11 +29,11 @@
                 <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between">
                     <ul class="navbar-nav flex-grow-1">
                         <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-page="/Index">Home</a>
+                            <a class="nav-link text-dark" asp-area="" asp-page="/LoginCliente">login</a>
                         </li>
-                        <li class="nav-item">
+                        @* <li class="nav-item">
                             <a class="nav-link text-dark" asp-area="" asp-page="/Privacy">Privacy</a>
-                        </li>
+                        </li> *@
                     </ul>
                 </div>
             </div>

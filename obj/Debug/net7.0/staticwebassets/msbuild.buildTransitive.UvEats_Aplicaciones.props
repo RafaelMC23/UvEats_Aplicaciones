@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\buildMultiTargeting\UvEats_Aplicaciones.props" />
+</Project>
