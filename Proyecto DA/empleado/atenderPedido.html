@@ -1,0 +1,100 @@
+<!DOCTYPE html>   
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <title>Detalles pedido</title>
+        <style>
+            table {
+                border-collapse: collapse;
+                width: 100%;
+            }
+            
+            th, td {
+                border: 1px solid black;
+                padding: 8px;
+                text-align: left;
+            }
+            
+            th {
+                background-color: #f2f2f2;
+            }
+        </style>
+        <link rel="stylesheet" href="../css/bootstrap.min.css"> 
+    </head>
+    <body>
+        <div class="row">
+            <div class="col-sm-1"></div>
+            <div class="col-sm-6" align="center">                
+                <div class="row rowText">
+                    <header>
+                        <br><br>
+                        <div align="left"><img src="../imgs/Logo.png" width="100" height="100"></div>
+                        <div align="center"> <h1>Pedido</h1></div> 
+                        <br><br>
+                    </header>
+                    <div class="container" align ="right">
+                        <button type="button" class="btn btn-danger">Eliminar artículo de pedido</button>
+                        <br><br>
+                    </div>
+                    <table>
+                        <tr>
+                            <th>Compra</th>
+                            <th>Subtotal</th>
+                            <th>Cantidad</th>
+                            <th>Estatus</th>
+                        </tr>
+                        <tr>
+                            <td>-</td>
+                        </tr>
+                        <tr>
+                            <td>-</td>
+                        </tr>
+                        <tr>
+                            <td>-</td>
+                        </tr>
+                        <tr>
+                            <td>-</td>
+                        </tr>
+                    </table>
+                    <div class="container" align="left">
+                        <br>
+                        Información Cliente:
+                        Nombre:
+                        <input id="txt_nombre" type="text"/>
+                        <br><br>
+                        Contraseña:
+                        <input id="txt_email" type="email"/>
+                    </div>
+
+                </div>
+            </div>
+            <div class="col-sm-1" align="center"></div>
+            <div class="col-sm-3" align="center">
+                <br><br><br><br><br><br><br><br><br><br><br><br><br>
+                <div class="row">
+                    <textarea>-Empleado: uno de los productos no está disponible, ¿Deseas cancelar la orden o sólo eliminar el producto?
+
+-Cliente: Elimina el producto
+                    </textarea><br><br><br><br><br><br><br><br>
+                    <div class="container" align="left">
+                        <div class="row">
+                            <div class="col-sm-5" align="center">
+                                <br><br>
+                                <button type="button" class="btn btn-warning">Notificar a cliente</button>
+                            </div>
+                            <div class="col-sm-1" align="center"></div>
+                            <div class="col-sm-1" align="center"></div>
+                            <div class="col-sm-5" align="center">
+                                <br><br>
+                                <button type="button" class="btn btn-success">Pedido recogido</button><br><br>
+                                <button type="button" class="btn btn-danger">Cancelar pedido</button><br><br>
+                                <button type="button" class="btn btn-info"><a href="indexEmpleados.html" >Regresar</button></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+
+</html>

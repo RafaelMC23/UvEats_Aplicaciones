@@ -1,0 +1,56 @@
+<!DOCTYPE html>   
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <title>Registrar/Modificar platillo</title>
+        <link rel="stylesheet" href="../css/bootstrap.min.css"> 
+    </head>
+    <body>
+        <header>
+            <br><br>
+            <div align="center"> <h1>Configuración de platillo</h1></div> 
+            <br><br>
+        </header>
+
+        <div class="row">
+            <div class="col-sm-2"></div>
+            <div class="col-sm-2" align="center">
+                <div class="row rowText">
+                    <br><br>
+                    Selecciona el tipo:
+                    <select name="select">
+                        <option value="numb" selected>Selecciona una opción</option>
+                        <option value="Comida">Comida</option>
+                        <option value="Bebida">Bebida</option>
+                        <option value="Postres">Postres</option>
+                    </select>
+                    <br>
+                    Nombre:
+                    <input id="txt_nombre" type="text"/>
+                    <br>
+                    Descripción:
+                    <textarea>Ejemplo del texto de la cancelación en un área de texto más grande
+                    </textarea><br>
+                    Precio al público (Pesos mexicanos):
+                    <input id="txt_precio" type="text"/>
+                    <br>
+                </div>
+            </div>
+            <div class="col-sm-1" align="center"></div>
+            <div class="col-sm-2" align="center"></div>
+            <div class="col-sm-2" align="center">
+                <div class="row rowText">
+                    <img src="../imgs/noimage.jpg" width="100" height="200">
+                </div>
+                <div align="center">
+                    <button type="button" class="btn btn-primary">Subir foto</button><br><br>
+                    <button type="button" class="btn btn-success"><a href="indexEmpleados.html" > Finalizar registro</button></a><br><br>
+                    <button type="button" class="btn btn-danger"><a href="indexEmpleados.html" >Cancelar</button></a>
+                </div>
+            </div>
+        </div>
+
+
+    </body>
+
+</html>

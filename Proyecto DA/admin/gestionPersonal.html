@@ -1,0 +1,107 @@
+<!DOCTYPE html>   
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <title>Gestión de personal</title>
+        <style>
+            table {
+                border-collapse: collapse;
+                width: 100%;
+            }
+            
+            th, td {
+                border: 1px solid black;
+                padding: 8px;
+                text-align: left;
+            }
+            
+            th {
+                background-color: #f2f2f2;
+            }
+        </style>
+        <link rel="stylesheet" href="../css/bootstrap.min.css"> 
+    </head>
+    <body>
+        <div class="row">
+            <div class="col-sm-1"></div>
+            <div class="col-sm-1"></div>
+            <div class="col-sm-8" align="center">                
+                <div class="row">
+
+                    <div class="row">
+                        <div class="col-sm-5" align="center">
+                            <img src="../imgs/Logo.png" width="100" height="100">
+                        </div>
+                        <div class="col-sm-1" align="center"></div>
+                        <div class="col-sm-1" align="center"></div>
+                        <div class="col-sm-5" align="right">
+                            <button type="button" class="btn btn-info">Cerrar sesión</button>
+                        </div>
+                    </div>
+
+                    <header>
+                        <br><br>
+                        <div align="center"><h1>Gestión de personal</h1></div> 
+                        <br><br>
+                    </header>
+                    <div class="container" align ="left">
+                        Búsqueda:   
+                        <input id="txt_search" type="text"/> 
+                        <button type="button" class="btn btn-primary">Buscar</button>
+                        <br><br>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-sm-4" align="center">
+                            <div class="container" align ="left">
+                                <button type="button" class="btn btn-success">Agregar empleado</button><br><br>
+                            </div>
+                        </div>
+                        <div class="col-sm-4" align="center">
+                            <button type="button" class="btn btn-warning">Modificar empleado</button><br><br>
+                        </div>
+                        <div class="col-sm-4" align="center">
+                            <div class="container" align ="right">
+                                <button type="button" class="btn btn-danger">Eliminar empleado</button><br><br>
+                            </div>
+                        </div>
+                    </div>
+
+                    <table>
+                        <tr>
+                            <th>Fotografía</th>
+                            <th>Correo</th>
+                            <th>Nombre</th>
+                            <th>Apellido</th>
+                            <th>Contraseña</th>
+                        </tr>
+                        <tr>
+                            <td><img src="../imgs/noimage.jpg" width="100" height="100"></td>
+                            <td>zS18012152@estudiantes.uv.mx</td>
+                            <td>Darío</td>
+                            <td>Castellanos</td>
+                            <td>passwd</td>
+                        </tr>
+                        <tr>
+                            <td><img src="../imgs/noimage.jpg" width="100" height="100"></td>
+                            <td>zS19023586@estudiantes.uv.mx</td>
+                            <td>Rafa</td>
+                            <td>Macip</td>
+                            <td>passwd</td>
+                        </tr>
+                        <tr>
+                            <td><img src="../imgs/noimage.jpg" width="100" height="100"></td>
+                            <td>zs19023589@estudiantes.uv.mx</td>
+                            <td>Jona</td>
+                            <td>Hernández</td>
+                            <td>passwd</td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+            <div class="col-sm-1" align="center"></div>
+            <div class="col-sm-1" align="center"></div>
+        </div>
+    </body>
+
+</html>

@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <title>Menú Principal</title>
+        <link rel="stylesheet" href="../css/bootstrap.min.css">
+    </head>
+    <body>
+        <!--Toda esta monstruosidad que ves, es nuestra barra de navegación, creo que no la vas a usar, pero intenta entenderla para la exposición-->
+        <div class="container=fluid bg-primary">
+            <div class="container">
+                <nav class="navbar navbar-expand-lg navbar-dark">
+                    <div class="container-fluid">
+                      <a class="navbar-brand" href="#">UV eats</a>
+                      <img src="../imgs/Logo.png" width="60" height="60">
+                      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                      </button>
+                      <div class="collapse navbar-collapse" id="navbarNav">
+                        <ul class="navbar-nav ms-auto">
+                          <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Menú</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link" href="#">Historial de compra</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link" href="#">Notificaciones</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link">Actualizar datos</a>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                  </nav>
+            </div>
+        </div>
+        <br>    
+
+        <div class="row">
+          <div class="col-sm-2"></div>
+          <div class="col-sm-4" align="left">
+            <div align="left"> <h1>Platillos/Productos</h1></div>
+            Selecciona el tipo:<br>
+            <select name="select">
+                <option value="numb" selected>Selecciona una opción</option>
+                <option value="Comida">Comida</option>
+                <option value="Bebida">Bebida</option>
+                <option value="Postres">Postres</option>
+            </select>
+            <br>
+            <br>
+            <div>
+              <img align ="left" src="../imgs/noimage.jpg" width="300" height="300">
+              <br><br><br><br>
+              <strong>Enchiladas rojas</strong><br>
+              <strong>Precio: $25.00</strong><br>
+              <strong>Descripción:</strong> Esta es una descripción de prueba para un alimento del menú
+            </div>
+          </div>
+          <div class="col-sm-1" align="center"></div>
+          <div class="col-sm-2" align="center">
+              <div class="row">
+                  <br><br>
+                  Búsqueda:
+                  <input id="txt_search" type="text"/>   
+              </div>
+          </div>
+          <div class="col-sm-2" align="left">
+            <br><br><br>
+            <button type="button" class="btn btn-primary">Buscar</button>
+            <br><br><br><br><br><br><br><br><br>
+            <button type="button" class="btn btn-danger">Reseñar platillo</button><br><br>
+            <button type="button" class="btn btn-warning">Ver reseña</button><br><br>
+            <button type="button" class="btn btn-success">Ordenar</button>
+          </div>
+      </div>
+
+    </body>
+
+</html>
+
+
+

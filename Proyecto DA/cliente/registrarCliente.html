@@ -1,0 +1,43 @@
+<!DOCTYPE html>   
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <title>Registrar cliente</title>
+        <link rel="stylesheet" href="../css/bootstrap.min.css"> 
+    </head>
+    <body>
+        <header>
+            <br><br>
+            <div align="center"> <h1>Registro de usuario de UvEats</h1></div> 
+            <br><br>
+        </header>
+        <div class="row">
+            <div class="col-sm-2"></div>
+            <div class="col-sm-2" align="center">
+                <div class="row rowText"><img style="margin-left: auto;margin-right: auto" src="../imgs/Logo.png" width="300" height="200" /></div>
+            </div>
+            <div class="col-sm-1" align="center"></div>
+            <div class="col-sm-2" align="center">
+                <div class="row">
+                    Correo:
+                    <input id="txt_correo" type="email"/>
+                    <br>
+                    Nombre completo:
+                    <input id="txt_nombreCompletoCliente" type="text"/>
+                    <br>
+                    Numero telefonico:
+                    <input id="txt_numeroTelefono" type="text" pattern="[0-9]{10}" required>
+                    <br>
+                    Contraseña:
+                    <input id="txt_passwd" type="password"/>
+                </div>
+                <div align="center">
+                    <br>    
+                    <button type="button" class="btn btn-success">Registrarse</button></a><br><br>
+                    <button type="button" class="btn btn-primary">Cancelar</button></a>
+                </div>
+            </div>
+        </div>
+    </body>
+
+</html>

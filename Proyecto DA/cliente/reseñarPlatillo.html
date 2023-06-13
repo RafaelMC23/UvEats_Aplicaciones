@@ -1,0 +1,94 @@
+<!DOCTYPE html>   
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <title>Reseñar platillo</title>
+        <style>
+            table {
+                border-collapse: collapse;
+                width: 100%;
+            }
+            
+            th, td {
+                border: 1px solid black;
+                padding: 8px;
+                text-align: left;
+            }
+            
+            th {
+                background-color: #f2f2f2;
+            }
+        </style>
+        <link rel="stylesheet" href="../css/bootstrap.min.css"> 
+    </head>
+    <body>
+        <div class="row">
+            <div class="col-sm-1"></div>
+            <div class="col-sm-6" align="center">                
+                <div class="row rowText">
+                    <header>
+                        <br><br>
+                        <div align="center"> <h1>Platillos/Productos</h1></div> 
+                        <br><br>
+                    </header>
+
+                    <div class="container" align ="left">
+                        Selecciona la categoría:<br>
+                        <select name="select">
+                            <option value="numb" selected>Selecciona una opción</option>
+                            <option value="Comida">Comida</option>
+                            <option value="Bebida">Bebida</option>
+                            <option value="Postres">Postres</option>
+                        </select>
+                        <br><br>
+                    </div>
+                    <div class="container" align ="left">
+                        Búsqueda:   
+                        <input id="txt_search" type="text"/> 
+                        <button type="button" class="btn btn-primary">Buscar</button>
+                        <br><br>
+                    </div>
+
+
+
+
+                    <div class="container" align="left">
+                        <img align ="left" src="../imgs/noimage.jpg" width="300" height="300">
+                        <br><br><br><br>
+                        <strong>Enchiladas rojas</strong><br>
+                        <strong>Precio: $25.00</strong><br>
+                        <strong>Descripción:</strong> Esta es una descripción de prueba para un alimento del menú
+                    </div>
+                    <div class="container" align ="left">
+                        <br><br>
+                        <button type="button" class="btn btn-info">Seleccionar</button>
+                        <br><br>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-1" align="center"></div>
+            <div class="col-sm-3" align="center">
+                <br><br><br><br><br><br><br><br>
+                <div class="row">
+                        
+                    <div class="container" align ="left">
+                        <br>
+                        Platillo seleccionado:   
+                        <input id="txt_search" type="text"/> 
+                        <br><br>
+                    </div>
+                    Dános tu opinión: <br>
+                    <textarea>
+                    </textarea><br><br><br><br><br><br><br><br>
+
+                    <div class="container" align="center">
+                        <br><br>
+                        <button type="button" class="btn btn-success">Reseñar</button><br><br>
+                        <button type="button" class="btn btn-danger"><a href="indexEmpleados.html" >Regresar</button></a>    
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+
+</html>

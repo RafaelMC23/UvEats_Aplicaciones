@@ -1,0 +1,28 @@
+<!-- Cada interfaz tiene que llevar el cuerpo base del html el cual lo conforman las etiquetas del doctype, 
+    html, head, body, cada de esas etiquetas se cierran, es así la sintaxis -->
+<!DOCTYPE html>   
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <title>Gestión de categorías</title> <!--La etiqueta title sirve para ponerle nombre a la pestaña del navegador-->
+        <link rel="stylesheet" href="../css/bootstrap.min.css"> <!--Esta etiqueta sirve para decirle al html que va a usar el estilo del css, se le tiene que definir la ruta dentro del proyecto-->
+    </head>
+    <body>
+        <header>
+            <br><br>
+            <div align="center"> <h1>Agregar/Modificar Categoría</h1></div> <!--Los div sirven para agrupar componentes, pero también se pueden usar para en este caso, centrar uno-->
+            <br><br>
+        </header>
+        <div align="center">
+        Categoría:
+        <input id="txt_categoria" type="text"/> <!--Este es el input, a cada input que hagas ponle un nombre, usa el mismo tipo de nomenclatura que yo-->
+        </div>
+        <br><br>
+        <div align="center">
+            <button type="button" class="btn btn-danger">Regresar</button><!--Estos son los botones, cambian para el color, en la documentación que te voy a pasar viene-->
+            <button type="button" class="btn btn-success">Guardar</button>
+        </div>
+
+    </body>
+
+</html>
