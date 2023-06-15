@@ -29,3 +29,34 @@ C:\Users\jon10\Desktop\APLIACION WEB\UvEats_Aplicaciones\obj\Debug\net7.0\refint
 C:\Users\jon10\Desktop\APLIACION WEB\UvEats_Aplicaciones\obj\Debug\net7.0\UvEats_Aplicaciones.pdb
 C:\Users\jon10\Desktop\APLIACION WEB\UvEats_Aplicaciones\obj\Debug\net7.0\UvEats_Aplicaciones.genruntimeconfig.cache
 C:\Users\jon10\Desktop\APLIACION WEB\UvEats_Aplicaciones\obj\Debug\net7.0\ref\UvEats_Aplicaciones.dll
+D:\Dario\Documentos\Proyecto\UvEats_Aplicaciones\bin\Debug\net7.0\appsettings.Development.json
+D:\Dario\Documentos\Proyecto\UvEats_Aplicaciones\bin\Debug\net7.0\appsettings.json
+D:\Dario\Documentos\Proyecto\UvEats_Aplicaciones\bin\Debug\net7.0\UvEats_Aplicaciones.staticwebassets.runtime.json
+D:\Dario\Documentos\Proyecto\UvEats_Aplicaciones\bin\Debug\net7.0\UvEats_Aplicaciones.exe
+D:\Dario\Documentos\Proyecto\UvEats_Aplicaciones\bin\Debug\net7.0\UvEats_Aplicaciones.deps.json
+D:\Dario\Documentos\Proyecto\UvEats_Aplicaciones\bin\Debug\net7.0\UvEats_Aplicaciones.runtimeconfig.json
+D:\Dario\Documentos\Proyecto\UvEats_Aplicaciones\bin\Debug\net7.0\UvEats_Aplicaciones.dll
+D:\Dario\Documentos\Proyecto\UvEats_Aplicaciones\bin\Debug\net7.0\UvEats_Aplicaciones.pdb
+D:\Dario\Documentos\Proyecto\UvEats_Aplicaciones\obj\Debug\net7.0\UvEats_Aplicaciones.csproj.AssemblyReference.cache
+D:\Dario\Documentos\Proyecto\UvEats_Aplicaciones\obj\Debug\net7.0\UvEats_Aplicaciones.GeneratedMSBuildEditorConfig.editorconfig
+D:\Dario\Documentos\Proyecto\UvEats_Aplicaciones\obj\Debug\net7.0\UvEats_Aplicaciones.AssemblyInfoInputs.cache
+D:\Dario\Documentos\Proyecto\UvEats_Aplicaciones\obj\Debug\net7.0\UvEats_Aplicaciones.AssemblyInfo.cs
+D:\Dario\Documentos\Proyecto\UvEats_Aplicaciones\obj\Debug\net7.0\UvEats_Aplicaciones.csproj.CoreCompileInputs.cache
+D:\Dario\Documentos\Proyecto\UvEats_Aplicaciones\obj\Debug\net7.0\UvEats_Aplicaciones.MvcApplicationPartsAssemblyInfo.cache
+D:\Dario\Documentos\Proyecto\UvEats_Aplicaciones\obj\Debug\net7.0\UvEats_Aplicaciones.RazorAssemblyInfo.cache
+D:\Dario\Documentos\Proyecto\UvEats_Aplicaciones\obj\Debug\net7.0\UvEats_Aplicaciones.RazorAssemblyInfo.cs
+D:\Dario\Documentos\Proyecto\UvEats_Aplicaciones\obj\Debug\net7.0\staticwebassets\msbuild.UvEats_Aplicaciones.Microsoft.AspNetCore.StaticWebAssets.props
+D:\Dario\Documentos\Proyecto\UvEats_Aplicaciones\obj\Debug\net7.0\staticwebassets\msbuild.build.UvEats_Aplicaciones.props
+D:\Dario\Documentos\Proyecto\UvEats_Aplicaciones\obj\Debug\net7.0\staticwebassets\msbuild.buildMultiTargeting.UvEats_Aplicaciones.props
+D:\Dario\Documentos\Proyecto\UvEats_Aplicaciones\obj\Debug\net7.0\staticwebassets\msbuild.buildTransitive.UvEats_Aplicaciones.props
+D:\Dario\Documentos\Proyecto\UvEats_Aplicaciones\obj\Debug\net7.0\staticwebassets.pack.json
+D:\Dario\Documentos\Proyecto\UvEats_Aplicaciones\obj\Debug\net7.0\staticwebassets.build.json
+D:\Dario\Documentos\Proyecto\UvEats_Aplicaciones\obj\Debug\net7.0\staticwebassets.development.json
+D:\Dario\Documentos\Proyecto\UvEats_Aplicaciones\obj\Debug\net7.0\scopedcss\Pages\Shared\_Layout.cshtml.rz.scp.css
+D:\Dario\Documentos\Proyecto\UvEats_Aplicaciones\obj\Debug\net7.0\scopedcss\bundle\UvEats_Aplicaciones.styles.css
+D:\Dario\Documentos\Proyecto\UvEats_Aplicaciones\obj\Debug\net7.0\scopedcss\projectbundle\UvEats_Aplicaciones.bundle.scp.css
+D:\Dario\Documentos\Proyecto\UvEats_Aplicaciones\obj\Debug\net7.0\UvEats_Aplicaciones.dll
+D:\Dario\Documentos\Proyecto\UvEats_Aplicaciones\obj\Debug\net7.0\refint\UvEats_Aplicaciones.dll
+D:\Dario\Documentos\Proyecto\UvEats_Aplicaciones\obj\Debug\net7.0\UvEats_Aplicaciones.pdb
+D:\Dario\Documentos\Proyecto\UvEats_Aplicaciones\obj\Debug\net7.0\UvEats_Aplicaciones.genruntimeconfig.cache
+D:\Dario\Documentos\Proyecto\UvEats_Aplicaciones\obj\Debug\net7.0\ref\UvEats_Aplicaciones.dll

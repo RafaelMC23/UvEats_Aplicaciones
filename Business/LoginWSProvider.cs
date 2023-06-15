@@ -32,7 +32,7 @@ public class LoginWSProvider : ILoginProvider {
         } catch (Exception e) {
           //  return null;
         }
-        // return (ds.codigo,ds.usuario,ds.token);
+        return (ds.codigo,ds.usuario,ds.token);
     }
     
 

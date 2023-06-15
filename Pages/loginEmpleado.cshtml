@@ -1,5 +1,6 @@
 @page
-
+@model LoginModel
+@{Layout = null;}
 <!DOCTYPE html>   
 <html lang="es">
     <head>
@@ -8,6 +9,7 @@
         <link rel="stylesheet" href="~/css/bootstrap.min.css"> 
     </head>
     <body>
+        <form class="row justify-content-center" asp-page-handler="loginEmpleado" method="POST">
         <header>
             <br><br>
             <div align="center"> <h1>Inicio de sesión de UV eats</h1></div> 
@@ -29,13 +31,14 @@
                 </div>
                 <div align="center">
                     <br>    
-                    <button type="button" class="btn btn-success"><a href="indexEmpleados.html" >Iniciar Sesión</button></a><br><br>
+                    <button type="button" class="btn btn-success" type="submit"><a href="indexEmpleados.html" >Iniciar Sesión</button></a><br><br>
                     ¿No tienes cuenta? Regístrate
                     <br><br>
                     <button type="button" class="btn btn-primary" type="submit">Registrarse</button></a>
                 </div>
             </div>
         </div>
+        </form>
     </body>
 
 </html>

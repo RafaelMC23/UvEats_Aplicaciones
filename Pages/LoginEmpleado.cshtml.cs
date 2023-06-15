@@ -31,6 +31,7 @@ public class LoginModel : PageModel
 
     public void OnPostLogin()
     {        
+        Console.WriteLine("pasoooo");
         if (_login != null && !String.IsNullOrEmpty(txt_correo) && !String.IsNullOrEmpty(txt_passwd)) {
             LoginSesion datos = new LoginSesion();
             datos.correo = txt_correo;
