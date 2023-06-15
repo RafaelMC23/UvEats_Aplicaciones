@@ -1,10 +1,10 @@
-﻿@{
+﻿@using Microsoft.AspNetCore.Http
+@* @{
     var token = Context.Session.GetString("token");
-    if (token == null)
-    {
-        //Context.Response.Redirect("/loginEmpleado");
+    if (token == null){
+        Context.Response.Redirect("/loginEmpleado");
     }
-}
+} *@
 
 <!DOCTYPE html>
 <html lang="en">
@@ -43,11 +43,11 @@
         </main>
     </div>
 
-    <footer class="border-top footer text-muted">
+    @* <footer class="border-top footer text-muted">
         <div class="container">
             &copy; 2023 - UvEats_Aplicaciones - <a asp-area="" asp-page="/Privacy">Privacy</a>
         </div>
-    </footer>
+    </footer> *@
 
     <script src="~/lib/jquery/dist/jquery.min.js"></script>
     <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
