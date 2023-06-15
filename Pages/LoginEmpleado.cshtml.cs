@@ -2,49 +2,50 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 //using CursosUI.Business;
 using UvEats_Aplicaciones.Models;
+using UvEats_Aplicaciones.Business;
 
 namespace UvEats_Aplicaciones.Pages;
 
 public class LoginModel : PageModel
 {
-    // private readonly ILogger<LoginModel> _logger;
-    // //public   ILoginProvider _login {get; set;}
+    private readonly ILogger<LoginModel> _logger;
+    public   ILoginProvider _login {get; set;}
 
-    // [BindProperty]
-    // public String login {get; set;}
+    [BindProperty]
+    public String txt_passwd {get; set;}
 
-    // [BindProperty]
-    // public String password {get; set;}
+    [BindProperty]
+    public String txt_correo {get; set;}
 
-    // public LoginModel(/*ILogger<LoginModel> logger,                        
-    //                     ILoginProvider login*/)
-    // {
-    //     // _logger = logger;
-    //     // _login = login;        
-    // }
+    public LoginModel(ILoginProvider login)
+    {
+       
+        _login = login;        
+    }
 
-    // public void OnGet()
-    // {
+    public void OnGet()
+    {
 
-    // }    
+    }    
     
 
-    // public void OnPostLogin()
-    // {        
-    //     // if (_login != null && !String.IsNullOrEmpty(login) && !String.IsNullOrEmpty(password)) {
-    //     //     var datosSesion = _login.iniciarSesion(login, password);
-    //     //     _logger.LogInformation($"Login: {login}");
-    //     //     _logger.LogInformation($"Password: {password}");
-    //     //     _logger.LogInformation($"Respuesta: {datosSesion}");
-    //     //     if (datosSesion != null) {
-    //     //         Request.HttpContext.Session.SetString("login", datosSesion.login);
-    //     //         Request.HttpContext.Session.SetString("nombre", datosSesion.nombreCompleto);
-    //     //         Request.HttpContext.Session.SetString("token", datosSesion.token);
-    //     //        // Response.Redirect("CursosCard");
-    //     //     }else
-    //         Console.WriteLine("pasoooo");
+    public void OnPostLogin()
+    {        
+        if (_login != null && !String.IsNullOrEmpty(txt_correo) && !String.IsNullOrEmpty(txt_passwd)) {
+            LoginSesion datos = new LoginSesion();
+            datos.correo = txt_correo;
+            datos.contrasena = txt_passwd;
+            var datosSesion = _login.iniciarSesion(datos);
+            if (datosSesion.Item1 != null && datosSesion.Item2 != null && datosSesion.Item3 != null) {
+            
+                Request.HttpContext.Session.SetString("usuario", datosSesion.Item2.ToString());
+                Request.HttpContext.Session.SetString("token", datosSesion.Item3);
+                Console.WriteLine("pasoooo");
+               // Response.Redirect("CursosCard");
+            }
+            
         
-    // }
+        }
 
-    
+    }
 }

@@ -1,9 +1,21 @@
+using UvEats_Aplicaciones.Business;
 var builder = WebApplication.CreateBuilder(args);
 
+IConfiguration config = builder.Configuration;
+var urlAPI = config["UrlAPI"];
 // Add services to the container.
 builder.Services.AddRazorPages();
 builder.Services.AddHttpContextAccessor();
 builder.Services.AddDistributedMemoryCache();
+
+builder.Services.AddScoped<ILoginProvider,LoginWSProvider>();
+
+builder.Services.AddHttpClient("api", client =>
+    {
+        client.BaseAddress = new Uri(urlAPI);
+        client.DefaultRequestHeaders.Add("Accept", "application/json");
+        
+    });
 
 builder.Services.AddSession(options =>
 {
